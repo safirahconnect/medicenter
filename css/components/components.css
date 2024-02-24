@@ -1,0 +1,23 @@
+:root {
+  --container: 20px;
+}
+
+.container {
+  padding-left: var(--container);
+  padding-right: var(--container);
+  max-width: 1200px;
+  margin: auto;
+}
+
+@media (max-width: 400px) {
+  :root {
+    --container: 20px;
+  }
+}
+
+.botao {
+  padding: 10px;
+  border: 1px solid #fff;
+  color: #fff;
+  display: inline-block;
+}

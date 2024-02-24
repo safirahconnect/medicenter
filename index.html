@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medicenter</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preload" href="style.css" as="style">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script>
+    window.onload = function () {
+      const mobile = document.querySelector(".header-mobile");
+      mobile.addEventListener("click", function () {
+        document.querySelector(".header-menu").classList.toggle("active")
+      })
+    };
+  </script>
+
+</head>
+
+<body>
+  <header class="header container">
+    <img src="img/logo.png" alt="Logo da Medicenter">
+    <nav aria-label="primária">
+
+      <div class="header-mobile">
+        <div class="header-mobile-line"></div>
+        <div class="header-mobile-line"></div>
+        <div class="header-mobile-line"></div>
+      </div>
+
+      <ul class="header-menu">
+        <li><a href="">home</a></li>
+        <li><a href="">blog</a></li>
+        <li><a href="">pages</a></li>
+        <li><a href="">departments</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="intro-bg">
+    <div class="intro container">
+      <h1>Top notch<br>experience</h1>
+      <p>Medicenter is a responsive template perfect for all screen sizes</p>
+      <ul class="intro-lista">
+        <li>
+          <h2>Emergency Case</h2>
+          <p>If you need a doctor urgently outside of medicenter opening hours, call emergency appointment number for emergency service</p>
+          <a class="botao" href="./">Read more</a>
+        </li>
+        <li>
+          <h2>Doctors Timetable</h2>
+          <p>Here at medicenter we have ndividual doctor's lists. Click read more below to see services and current timetable for our doctors.</p>
+          <a class="botao" href="./">Read more</a>
+        </li>
+        <li>
+          <h2>Opening Hours</h2>
+          <span>Monday - Friday <span>8:00 - 17:00</span></span>
+          <span>Saturday <span>9:30 - 17:30</span></span>
+          <span>Sunday <span>9:30 - 15:00</span></span>
+        </li>
+      </ul>
+    </div>
+  </main>
+
+  <section>
+    <div class="container news-departments">
+      <section class="news" aria-label="news">
+        <h2>Latest News</h2>
+        <ul class="news-lista">
+          <li>
+            <span>12 dec 12</span>
+            <span>2</span>
+            <img src="./img/img2.jpg" alt="photo about the related news">
+            <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque aliquam tempora minima illum porro necessitatibus molestiae, placeat quae consequuntur impedit, ut reprehenderit deserunt. Temporibus tempora amet necessitatibus, facere dolorem ut?</p>
+
+            <span>12 dec 12</span>
+            <span>2</span>
+            <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque aliquam tempora minima illum porro necessitatibus molestiae, placeat quae consequuntur impedit, ut reprehenderit deserunt. Temporibus tempora amet necessitatibus, facere dolorem ut?</p>
+          </li>
+
+          <li>
+            <span>12 dec 12</span>
+            <span>2</span>
+            <img src="./img/img2.jpg" alt="photo about the related news">
+            <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque aliquam tempora minima illum porro necessitatibus molestiae, placeat quae consequuntur impedit, ut reprehenderit deserunt. Temporibus tempora amet necessitatibus, facere dolorem ut?</p>
+
+            <span>12 dec 12</span>
+            <span>2</span>
+            <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque aliquam tempora minima illum porro necessitatibus molestiae, placeat quae consequuntur impedit, ut reprehenderit deserunt. Temporibus tempora amet necessitatibus, facere dolorem ut?</p>
+          </li>
+        </ul>
+      </section>
+      <aside aria-labelledby="departments">
+        <h2 class="departments">Departments</h2>
+        <ul class="departments-lista">
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <footer class="footer-bg">
+    <div class="footer container">
+      <ul class="footer-lista">
+        <li>
+          <h2>Emergency Case</h2>
+          <p>Here at medicenter we have individual</p>
+        </li>
+        <li>
+          <h2>Doctors Timetable</h2>
+          <p>Here at medicenter we have individual </p>
+        </li>
+        <li>
+          <h2>Opening Hours</h2>
+          <p>Here at medicenter we have individual </p>
+        </li>
+      </ul>
+
+      <ul class="footer-secondary-lista">
+        <li>
+          <h3>Medicenter Clinic</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus harum eligendi nam officia, veritatis magnam quod tenetur ipsa nihil rem dolorum recusandae suscipit similique, sapiente error ullam illum voluptate eos.</p>
+          <address>
+            <p>Medicenter Clinic<br>
+              33 Farlane Street<br>
+              Keilor East<br>
+              VIC 3033, Australia</p>
+            <ul>
+              <li><a href="tel:+123655655">+123 655 655</a></li>
+              <li><a href="tel:+123755755">+123 755 755</a></li>
+              <li><a href="mailto:medicenter@mail.com">medicenter@mail.com</a></li>
+            </ul>
+          </address>
+        </li>
+        <li>
+          <h3>Latest Posts</h3>
+          <ul>
+            <li>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa saepe soluta sint repellendus quisquam neque recusandae incidunt blanditiis voluptas, iure ipsum magnam amet omnis sunt perspiciatis a ut aliquid! Nemo?</p>
+              <span>9 months ago</span>
+            </li>
+            <li>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa saepe soluta sint repellendus quisquam neque recusandae incidunt blanditiis voluptas, iure ipsum magnam amet omnis sunt perspiciatis a ut aliquid! Nemo?</p>
+              <span>9 months ago</span>
+            </li>
+            <li>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa saepe soluta sint repellendus quisquam neque recusandae incidunt blanditiis voluptas, iure ipsum magnam amet omnis sunt perspiciatis a ut aliquid! Nemo?</p>
+              <span>9 months ago</span>
+            </li>
+
+          </ul>
+        </li>
+        <li>
+          <h3>Latest Tweets</h3>
+          <ul>
+            <li>
+              <p>@user: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque veritatis saepe, dolor ullam harum ex dolorem expedita, fugit aperiam unde eveniet quis dolorum a ea dolores sint, quo quaerat minima?</p>
+              <span>9 days ago</span>
+            </li>
+            <li>
+              <p>@user: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque veritatis saepe, dolor ullam harum ex dolorem expedita, fugit aperiam unde eveniet quis dolorum a ea dolores sint, quo quaerat minima?</p>
+              <span>9 days ago</span>
+            </li>
+            <li>
+              <p>@user: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque veritatis saepe, dolor ullam harum ex dolorem expedita, fugit aperiam unde eveniet quis dolorum a ea dolores sint, quo quaerat minima?</p>
+              <span>9 days ago</span>
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+      <span>Copyright ©️ - Medcenter Template by Quantical Labs</span>
+
+    </div>
+  </footer>
+</body>
+
+</html>
